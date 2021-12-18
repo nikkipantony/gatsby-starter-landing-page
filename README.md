@@ -38,7 +38,7 @@ When you have these available, you will be ready to begin installation
    Use the Gatsby CLI to get started locally:
 
    ```sh
-   npx gatsby new my-landing-page-site https://github.com/gatsbyjs/gatsby-starter-landing-page
+   npx gatsby new my-landing-page-site https://github.com/nikkipantony/gatsby-starter-landing-page
    ```
 
 2. **Install packages**
