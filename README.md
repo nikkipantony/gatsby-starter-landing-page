@@ -41,11 +41,18 @@ When you have these available, you will be ready to begin installation
    npx gatsby new my-landing-page-site https://github.com/gatsbyjs/gatsby-starter-landing-page
    ```
 
-2. **Run the Contentful setup command**
+2. **Install packages**
    From your site's root directory, run the following command:
 
    ```sh
    cd my-landing-page-site
+   yarn install
+   ```
+
+3. **Run the Contentful setup command**
+   Using the following command:
+
+   ```sh
    yarn setup
    ```
 
@@ -53,7 +60,7 @@ When you have these available, you will be ready to begin installation
 
    Your Contentful space will now contain the content model used by the starter, along with demo content that demonstrates how to use the various content types and landing page components.
 
-3. **Start developing**
+4. **Start developing**
 
    Navigate to your new site's directory and start the development server.
    **Note:** this starter uses Yarn Workspaces and requires Yarn for development.
@@ -62,7 +69,7 @@ When you have these available, you will be ready to begin installation
    yarn && yarn start
    ```
 
-4. **Open the source code and start editing!**
+5. **Open the source code and start editing!**
 
    Your site should now be running at <http://localhost:8000>
 
